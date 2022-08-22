@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ----------- Container start ----------- */
+.container {
+  background-color: #636c79;
+  color: #ffffff;
+}
+
+nav {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo img {
+  height: 40px;
+}
+
+nav .list {
+  display: flex;
+  cursor: pointer;
+}
+
+nav .list-item {
+  list-style: none;
+  padding-right: 50px;
+  font-weight: 500;
+}
+
+.nav-btn {
+  background-color: transparent;
+  padding: 10px 35px;
+  color: #ffffff;
+  border: 2px solid #787d85;
+  font-weight: 700;
+  margin-top: -10px;
+  margin-left: 100px;
+}
+.menu-icon {
+  display: none;
+  height: 30px;
+  cursor: pointer;
+}
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.hero-left img {
+  height: 400px;
+  border-radius: 7px;
+}
+
+.hero-right {
+  margin-left: 100px;
+  padding: 10px 40px;
+}
+
+.hero-right h1 {
+  font-size: 60px;
+}
+
+.hero-right p {
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hero-right form {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.hero-right form img {
+  height: 16px;
+}
+
+.hero-right form input {
+  width: 65%;
+  border: none;
+  display: inline-block;
+  height: 40px;
+}
+.hero-right form button {
+  background-color: #8bb7a2;
+  color: #ffffff;
+  border: none;
+  padding: 20px 40px;
+  font-size: 15px;
+}
+
+/* Business section start */
+
+.business-section {
+  padding: 4% 10%;
+  text-align: center;
+}
+
+.business-section h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.business-content {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+.business-content h2 {
+  font-size: 40px;
+}
+.business-content p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.business-footer img {
+  margin: 40px 0;
+  height: 500px;
+  width: 80%;
+}
+
+/* ----------- Service section start ----------- */
+
+.service-section {
+  padding: 1rem 8rem;
+}
+
+.service-section h1 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.service-cards {
+  margin: 50px;
+}
+
+.service-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.service-card .card-text {
+  width: 40%;
+}
+
+.service-card .card-text h2 {
+  font-size: 35px;
+}
+
+.service-card .card-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.service-card .card-text button {
+  background-color: #8bb7a2;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  padding: 12px 40px;
+  margin-top: 10px;
+}
+
+.service-card .card-image {
+  height: 420px;
+  width: 45%;
+}
+
+.service-card .card-image img {
+  height: 100%;
+  width: 100%;
+}
+
+/* ----------- Teams start ----------- */
+
+.teams-section {
+  padding: 2rem 10rem;
+}
+
+.teams-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teams-section-heading h2 {
+  font-size: 45px;
+  width: 30%;
+}
+
+.teams-section-heading p {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0 30px 0;
+}
+
+.team-card {
+  margin: 30px;
+}
+
+.team-card img {
+  height: 380px;
+  width: 80%;
+  margin-bottom: 15px;
+}
+.team-card h3 {
+  font-size: 23px;
+}
+
+.team-card p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+  padding-right: 20%;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.teams-section-footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.teams-section-footer button {
+  background-color: #8bb7a2;
+  color: #ffffff;
+  border: none;
+  padding: 12px 40px;
+  font-size: 20px;
+}
+
+/* ----------- Footer start ----------- */
+
+footer {
+  background-color: #10181d;
+  padding: 3rem 10rem;
+  color: #ffffff;
+}
+
+.footer-logos {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #8a8a8a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 30px;
+}
+
+.social-icons span {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-color: #293339;
+  padding: 16px;
+  border-radius: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.social-icons img {
+  height: 16px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.nav-list h4 {
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.nav-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav-list ul li {
+  cursor: pointer;
+}
+.footer .hr {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.093);
+  width: 100%;
+  display: block;
+}
+@media only screen and (max-width: 1200px) {
+  nav {
+    padding: 25px;
+  }
+  .hero {
+    padding: 30px;
+  }
+  .hero-right {
+    margin-left: 10px;
+  }
+  .hero-right h1 {
+    font-size: 40px;
+  }
+  .hero-right form input {
+    width: 50%;
+  }
+  .hero-right form button {
+    padding: 10px 20px;
+  }
+  .service-section {
+    padding: 1rem 2rem;
+  }
+  .teams-section {
+    padding: 2rem 5rem;
+  }
+  .teams-section-heading {
+    margin-left: 40px;
+  }
+  .teams-section-heading h2 {
+    width: 50%;
+  }
+  .teams-section-heading p {
+    width: 70%;
+  }
+  footer {
+    padding: 3rem 5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav .list {
+    display: none;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 30px 60px;
+  }
+  .hero-right {
+    margin-top: 20px;
+  }
+  .business-section h1 {
+    font-size: 40px;
+  }
+  .business-section h2 {
+    font-size: 30px;
+  }
+  .service-section h1 {
+    font-size: 40px;
+  }
+  .service-card .card-image {
+    height: 300px;
+    width: 55%;
+  }
+  .service-card .card-text h2 {
+    font-size: 25px;
+  }
+  .service-card .card-text p {
+    font-size: 15px;
+  }
+  .teams-section-heading {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .teams-section-heading h2 {
+    width: 100%;
+  }
+  .teams-section-heading p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .team-cards {
+    flex-direction: column;
+    margin-left: 70px;
+  }
+  .footer-nav {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .nav-list h4 {
+    margin-top: 20px;
+  }
+  .nav-list ul {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .hero {
+    padding: 15px;
+  }
+  .hero-left img {
+    height: 250px;
+    border-radius: 7px;
+  }
+  .hero-right h1 {
+    font-size: 30px;
+  }
+  .hero-right form button {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  .business-content {
+    display: none;
+  }
+  .business-footer img {
+    height: 250px;
+    width: 100%;
+  }
+  .service-card {
+    flex-direction: column;
+  }
+  .reverse-card{
+    flex-direction: column-reverse;
+  }
+  .service-card .card-text {
+    width: 100%;
+  }
+  .service-card .card-text h2 {
+    font-size: 28px;
+  }
+  .service-card .card-text p {
+    display: none;
+  }
+  .service-card .card-text button {
+    padding: 5px;
+  }
+  .service-card .card-image {
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .teams-section{
+    padding: 2rem;
+  }
+  .footer-logos{
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  .footer-nav{
+    display: none;
+  }
+}

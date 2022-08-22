@@ -1,5 +1,5 @@
-# **PROJECT-1**
-*HTML and CSS* are the most important languages for web designers and developers. They allow you to design the website by creating a layout, text, and visual effects. One of the best ways to practice *HTML and CSS* is through mini-projects that can be completed in a few days or hours. Here is my *PROJECT-1* that helped me in furnishing my *HTML and CSS* skills.
+# **PROJECT-12**
+*HTML and CSS* are the most important languages for web designers and developers. They allow you to design the website by creating a layout, text, and visual effects. One of the best ways to practice *HTML and CSS* is through mini-projects that can be completed in a few days or hours. Here is my *PROJECT-12* that helped me in furnishing my *HTML and CSS* skills.
 <p>&nbsp;</p>
 
 ## **Internal Tech Stack**
@@ -12,4 +12,4 @@
 > - **Font Awesome** (For Icons)
 <p>&nbsp;</p>
 
-view [***PROJECT-1***](https://project-1-yash.vercel.app)
+view [***PROJECT-12***](https://project-12-yash.vercel.app)
